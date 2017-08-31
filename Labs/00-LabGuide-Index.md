@@ -80,7 +80,7 @@ This lab provides the links to create an Azure AD B2C directory, a sample applic
 ### #6 Design a management, monitoring, and business continuity strategy (20–25%)
 * **Azure IaaS monitoring with OMS https://github.com/dstolts/70-534/blob/master/Labs/06-Monitoring-Azure-Automation.md** 
 * **Create an alert rule on a metric with the Azure portal https://github.com/dstolts/70-534/blob/master/Labs/06-Monitoring-Create-Alerts.md**  
-* **Azure Automation Account https://github.com/dstolts/70-534/blob/master/Labs/06-Monitoring-Azure-Automation.pdf** 
+* **Azure Automation Account https://github.com/dstolts/70-534/blob/master/Labs/06-Monitoring-Azure-Automation.md** 
 * **Replicate Hyper-V virtual machines (without VMM) to Azure using Azure Site Recovery with the Azure portal https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-hyper-v-site-to-azure**
 * **Replicate physical machines to Azure by using Site Recovery https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-physical-servers-to-azure** 
 * **My first graphical runbook https://docs.microsoft.com/en-us/azure/automation/automation-first-runbook-graphical** 
