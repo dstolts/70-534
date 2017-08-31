@@ -126,8 +126,8 @@ See [https://github.com/Azure/azure-webjobs-sdk-script/issues/49](https://github
 
 Now, return to the Temperature function script view and replace the contents with the following script:
 
-`
-// reference external assembly from C# Script 
+```csharp
+// reference external assembly from C# Script
 #r "Microsoft.WindowsAzure.Storage"
 
 using System.Net;
@@ -162,7 +162,8 @@ public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, CloudB
     log.Info(res.Headers.Location.ToString());
     return res;
 }
-`
+```
+
 
 This script, *which will accept only HTTP POST* requests, creates a new blob from the HTTP request body. The data is unformatted, but it’s typical to use a JSON formatted object. To test, open the Test panel, set the HTTP method to POST, and add content to the Request body, such as below:
 
